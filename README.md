@@ -4,6 +4,7 @@ Sending packets via UDP protocol and receiving the same. Also working for sendin
 **Matlab UDP**
 
 **UDP send**
+
 The UDP Send block sends an input vector as UDP packets over an IP network port to a UDP host. Use the block for stateless and connectionless data transmission.
 
 The block sends packets from the port number specified in the Local IP Port parameter.
@@ -11,6 +12,7 @@ The block sends packets from the port number specified in the Local IP Port para
 Specify the IP address and the port number of the receiving host in the Remote IP address and Remote IP Port parameter.
 
 **UDP receive**
+
 The UDP Receive block receives UDP packets from a UDP host. Use the block for stateless and connectionless data transmission.
 
 With each sample, the block outputs the contents of a UDP packet as a data vector of the size that you specify in the Data size (N) parameter.
